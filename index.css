@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --bg-color: hsl(212, 45%, 89%);
+    --card: hsl(0, 0%, 100%);
+    --heading: hsl(218, 44%, 22%);
+    --paragraf: hsl(220, 15%, 55%);
+}
+
+body {
+    font-family: Outfit;
+    background-color:var(--bg-color);
+}
+    
+main {
+    display: flex;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#border{
+    background-color: var(--card);
+    max-width:14.7rem ;
+    min-height: 22rem;
+    border-radius: 12px;
+    padding: 0.8rem;
+    margin: 2rem;
+    text-align: center;
+}
+
+#inner{
+    margin: 1rem auto auto auto;
+    width: 13rem;
+}
+
+h2{
+    font-size: 1rem;
+    text-align: center;
+    color: var(--heading);
+}
+
+p{
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 0.6rem 0 0.6rem 0;
+    color: var(--paragraf);
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+ 
